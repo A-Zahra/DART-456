@@ -1,0 +1,96 @@
+<!-- ************************************************************************
+Zahra Ahmadi
+
+A webpage that contains the start screen elements.
+************************************************************************ -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta name="viewport" https-equiv="content-type" content="text/html" charset="utf-8">
+
+  <title>Home</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+  <!-- Including jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+  <!-- We include our own script file(s) -->
+  <!-- SABINE -- HERE WE CALL INDEX.JS -->
+  <script src="js/index.js" content="text/javascript"></script>
+</head>
+
+<body>
+  <!-- Main container -->
+  <div class="introduction">
+    <!-- Div containing the levels -->
+    <div class="gameLevels">
+      <div class="level1">
+        <img class="levels" id="model1" src="assets/images/model1.png" alt="model1">
+        <h2 class="model1Title" style="margin-left: -19.5vw;"><a href="#" style="color: white; text-decoration: none;">Level1</a></h2>
+      </div>
+      <div class="level2">
+        <img class="levels" id="model2" src="assets/images/model2.png" alt="model2">
+        <h2 class="model2Title" style="margin-left: -19.5vw; transform: rotate(90deg);"><a href="#" style="color: white;  text-decoration: none;">Level2</a></h2>
+      </div>
+    </div>
+    <!-- Level one pop up window -->
+    <div class="level1Options">
+      <!-- Exit button -->
+      <a href="#" style="text-decoration: none; color: white;"><img class="windowExitButton" src="assets/images/exit.png" alt="exit"></a>
+      <h1 class="level1Title">Level 1 [EAZY]</h1>
+      <!-- Instructions -->
+      <h3 class="instruction">INSTRUCTION</h3>
+      <ol type="I">
+        <li class="rules">To activate puzzle screen mouse over the white space.</li>
+        <li class="rules">To place puzzle pieces:
+          <ol type="a">
+            <li class="rules">Click on the empty spot you want to drop a piece to.</li>
+            <li class="rules">Drag the piece from the slider and drop it to the place.</li>
+          </ol>
+        </li>
+        <li class="rules">DON'T click on more than one empty spot at a time as it may drop the piece to the both!</li>
+        <li class="rules">If the piece you have taken isn't the correct one,you can put it back to its slide and take another piece.</li>
+        <li class="rules">NOTICE that once you drop a piece to its SPOT, it won't be draggable any more!</li>
+      </ol>
+      <!-- Puzzles that the player can choose to play -->
+      <div class="rowOfOptions">
+        <div class="option"><img id="PinkFlowers" src="assets/images/Level1/PinkFlowers.jpg" alt="PinkFlowers"></div>
+        <div class="option"><img id="Fall" src="assets/images/Level1/Fall.jpg" alt="Fall"></div>
+        <div class="option"><img id="Tiles" src="assets/images/Level1/Tiles.jpg" alt="Tiles"></div>
+        <div class="option"><img id="Snail" src="assets/images/Level1/Snail.jpg" alt="Snail"></div>
+      </div>
+    </div>
+    <!-- Level tow pop up window -->
+    <div class="level2Options">
+      <!-- Exit button -->
+      <a href="#" style="text-decoration: none; color: white;"><img class="windowExitButton" src="assets/images/exit.png" alt="exit"></a>
+      <h1 class="level2Title">Level 2 [HARD]</h1>
+      <!-- Instructions -->
+      <h3 class="instruction">INSTRUCTION</h3>
+      <ol type="I">
+        <li class="rules">You have 15 questions in total. Every 17 seconds a new question pops up.</li>
+        <li class="rules">You have 15 seconds to answer the question.</li>
+        <li class="rules">If your answer is wrong or you don't answer, the next question pops up right after.</li>
+        <li class="rules">To win the game you need to complete the puzzle before the list of questions is finished!</li>
+        <li class="rules">Puzzle pieces are only dropped to the right empty spots.</li>
+        <li class="rules">Pay attention to the clues. Sometimes they are part of the answer!</li>
+        <li class="rules">To answer some of the questions, you need to search on Google.</li>
+      </ol>
+      <!-- Puzzles that the player can choose to play -->
+      <div class="rowOfOptions">
+        <div class="option"><img id="desert" src="assets/images/Level2/desert.jpg" alt="desert"></div>
+        <div class="option"><img id="YellowFlowers" src="assets/images/Level2/YellowFlowers.jpg" alt="YellowFlowers"></div>
+        <div class="option"><img id="dog" src="assets/images/Level2/dog.jpg" alt="dog"></div>
+        <div class="option"><img id="breakfast" src="assets/images/Level2/breakfast.jpg" alt="breakfast"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

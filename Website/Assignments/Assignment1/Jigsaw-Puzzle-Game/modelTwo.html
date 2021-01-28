@@ -1,0 +1,107 @@
+<!-- ************************************************************************
+ZahraAhmadi
+
+A webpage that displays game's level two puzzle.
+************************************************************************ -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta name="viewport" https-equiv="content-type" content="text/html" charset="utf-8">
+  <title>Level Two</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <!-- Including jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+  <!-- Annyang library -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+
+  <!-- We include our own script file(s) -->
+  <script src="js/modelTwo.js" content="text/javascript"></script>
+</head>
+
+<body>
+  <!-- Main container div -->
+  <div class="secondPuzzleModels">
+    <!-- Div which contains left side puzzle pieces -->
+    <div class="columns" id="leftSidePieces" style="width: 17vw;"></div>
+    <div class="columns" id="puzzleBoard" style="width: 50vw;">
+      <div class="puzzleImageContainer" style="display: table;"></div>
+      <div class="questionsChart">
+      </div>
+      <!-- Div which contains the puzzle board -->
+      <div class="innerRow0" style="width: 50vw;">
+        <div class="innerRow1">
+          <div class="allSpots" id="spotToPosition7"></div>
+          <div class="allSpots" id="spotToPosition6"></div>
+          <div class="allSpots" id="spotToPosition5"></div>
+          <div class="allSpots" id="spotToPosition4"></div>
+          <div class="allSpots" id="spotToPosition3"></div>
+          <div class="allSpots" id="spotToPosition2"></div>
+          <div class="allSpots" id="spotToPosition1"></div>
+          <div class="allSpots" id="spotToPosition0"></div>
+        </div>
+        <div class="innerRow2">
+          <div class="allSpots" id="spotToPosition8"></div>
+          <div class="allSpots" id="spotToPosition9"></div>
+          <div class="allSpots" id="spotToPosition10"></div>
+          <div class="allSpots" id="spotToPosition11"></div>
+          <div class="allSpots" id="spotToPosition12"></div>
+          <div class="allSpots" id="spotToPosition13"></div>
+          <div class="allSpots" id="spotToPosition14"></div>
+          <div class="allSpots" id="spotToPosition15"></div>
+        </div>
+        <div class="innerRow3">
+          <div class="allSpots" id="spotToPosition23"></div>
+          <div class="allSpots" id="spotToPosition22"></div>
+          <div class="allSpots" id="spotToPosition21"></div>
+          <div class="allSpots" id="spotToPosition20"></div>
+          <div class="allSpots" id="spotToPosition19"></div>
+          <div class="allSpots" id="spotToPosition18"></div>
+          <div class="allSpots" id="spotToPosition17"></div>
+          <div class="allSpots" id="spotToPosition16"></div>
+        </div>
+        <div class="innerRow4">
+          <div class="allSpots" id="spotToPosition24"></div>
+          <div class="allSpots" id="spotToPosition25"></div>
+          <div class="allSpots" id="spotToPosition26"></div>
+          <div class="allSpots" id="spotToPosition27"></div>
+          <div class="allSpots" id="spotToPosition28"></div>
+          <div class="allSpots" id="spotToPosition29"></div>
+          <div class="allSpots" id="spotToPosition30"></div>
+          <div class="allSpots" id="spotToPosition31"></div>
+        </div>
+        <div class="innerRow5">
+          <div class="allSpots" id="spotToPosition39"></div>
+          <div class="allSpots" id="spotToPosition38"></div>
+          <div class="allSpots" id="spotToPosition37"></div>
+          <div class="allSpots" id="spotToPosition36"></div>
+          <div class="allSpots" id="spotToPosition35"></div>
+          <div class="allSpots" id="spotToPosition34"></div>
+          <div class="allSpots" id="spotToPosition33"></div>
+          <div class="allSpots" id="spotToPosition32"></div>
+        </div>
+        <div class="innerRow6">
+          <div class="allSpots" id="spotToPosition40"></div>
+          <div class="allSpots" id="spotToPosition41"></div>
+          <div class="allSpots" id="spotToPosition42"></div>
+          <div class="allSpots" id="spotToPosition43"></div>
+          <div class="allSpots" id="spotToPosition44"></div>
+          <div class="allSpots" id="spotToPosition45"></div>
+          <div class="allSpots" id="spotToPosition46"></div>
+          <div class="allSpots" id="spotToPosition47"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Div which contains right side puzzle pieces -->
+    <div class="columns" id="rightSidePieces" style="width: 17vw;"></div>
+    <!-- Victory screen -->
+    <div class="victoryReward"></div>
+  </div>
+</body>
+
+</html>

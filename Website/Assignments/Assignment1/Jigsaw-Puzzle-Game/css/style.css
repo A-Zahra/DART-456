@@ -1,0 +1,430 @@
+body {
+  background-image: url('../assets/images/background.png');
+  background-size: 100vw 60vw;
+}
+/* Start screen elements properties starts here */
+.introduction, .gameLevels, .level1Options, .level2Options{
+  display: table;
+  margin: auto;
+  margin-top: 2vw;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/* Game title properties */
+.gameTitle {
+  font-family: "Berlin Sans FB", sans-serif;
+  font-weight: lighter;
+  font-size: 4.5vw;
+  text-align: center;
+  margin-top: 1vw;
+}
+
+ /* Levels pop up winodows properties starts here */
+.gameLevels {
+  margin-top: -1vw;
+}
+
+.levels {
+  display: table;
+  float: left;
+  width: 30vw;
+}
+
+.level1, .level2 {
+  width: 30vw;
+  float: left;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: contents;
+}
+
+#model2{
+  margin-left: -13vw;
+}
+
+.model1Title, .model2Title {
+  color: white;
+  font-family: "century gothic", sans-serif;
+  font-size: 3vw;
+  text-align: center;
+  float: left;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  margin-top: 13vw;
+}
+
+#PinkFlowers, #Fall, #Tiles, #Snail, #desert, #YellowFlowers, #dog, #breakfast {
+  width: 15vw;
+  padding: 1vw;
+  border-radius: 15px;
+}
+
+.windowExitButton {
+  width: 2vw;
+  float: right;
+}
+
+.level1Title, .level2Title {
+  color: white;
+  font-family: "century gothic", sans-serif;
+  font-size: 3vw;
+  text-align: center;
+  margin-top: 1vw;
+}
+
+.instruction {
+  color: white;
+  font-family: "corbel", sans-serif;
+  font-size: 2vw;
+  margin-left: 2vw;
+}
+
+.rules {
+  color: white;
+  font-family: "corbel", sans-serif;
+  font-size: 1.5vw;
+  margin-left: 2vw;
+  background-color: mediumturquoise;
+  position: relative;
+  display: list-item;
+  border: none;
+  border-color: none;
+  box-shadow: none;
+  line-height: 2.5vw;
+}
+
+.level1Options, .level2Options{
+  background-color: mediumturquoise;
+  padding: 1vw;
+  height: 30vw;
+  margin-top: 1.5vw;
+  margin-left: 12vw;
+  position: absolute;
+  display: none;
+  border-radius: 15px;
+}
+
+.rowOfOptions {
+  padding: 2vw;
+  padding-bottom: 0vw;
+}
+.option {
+  width: 15vw;
+  float: left;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 1vw;
+  display: contents;
+}
+/* Start screen and levels pop up window elements properties ends here */
+
+/* Level one elements properties starts here */
+.rowProperties {
+    width:10vw;
+    float:left;
+    display: table;
+    left: 0;
+    right:0;
+    top:0;
+    bottom:0;
+    z-index: 2;
+}
+
+.row1, .row2, .row3, .row4, .row5, .row6{
+  display: inline-table;
+  position: relative;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.row2, .row3, .row4, .row5, .row6{
+  margin-top: -4.77vw;
+}
+
+#template-container {
+  margin: auto;
+  margin-top: -3vw;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.puzzleScreen {
+  display: table;
+  width: 60vw;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: -10;
+}
+
+.spotImage {
+  width: 100%;
+  opacity: 0;
+}
+.spotImage:hover {
+  opacity: 0.3;
+}
+
+.row , .victoryReward{
+  position: absolute;
+  width: 75vw;
+  height: 40vw;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.victoryReward{
+  display: none;
+}
+
+.column {
+  width: auto;
+  height: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  float: left;
+}
+
+.item {
+  display: table;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.content-slider {
+  float: left;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+li {
+  background-color: white;
+  position: relative;
+  display: block;
+  border: solid;
+  border-color: black;
+  border-radius: 5px;
+  box-shadow: 9px 9px 4px grey;
+}
+
+.arrowTop, .arrowBottom {
+  background-color: lightgreen;
+  display: block;
+  width: 3vw;
+  margin: auto;
+  margin-top: 0.7vw;
+  margin-bottom: 0.7vw;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 25px;
+}
+
+.paperExplosion {
+  width:100%;
+  height:100%;
+  position:absolute;
+}
+
+.giphy-embed {
+  position:absolute;
+  margin: auto;
+  margin-top: 0vw;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 70vw;
+  height: 47vw;
+}
+
+ /* Pop up windows and questions pop up window */
+.popUpWindow, .popUpQuestion {
+  display: table;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(34, 248, 218);
+  width: 40vw;
+  position: absolute;
+  margin-top: 16vw;
+  padding: 1vw;
+}
+
+.popUpQuestion {
+  width: 45vw;
+  padding: 2vw;
+  background-color: #FFB826;
+}
+
+.message, .question, .clue{
+  text-align: center;
+  font-family: "Berlin Sans FB" ;
+  font-weight: 400;
+  margin-bottom: 1vw;
+  font-size: 2.5vw;
+}
+.clue {
+  font-size: 2vw;
+}
+
+.rowOfButtons {
+  display: table;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.buttonPosition {
+  display: table;
+  margin: 1vw;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  float: left;
+}
+
+#playAgainButton, #homeButton {
+  font-family: "corbel";
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 1.5vw;
+  color: white;
+  background-color: gold;
+}
+#homeButton {
+  background-color: #931dff;
+}
+
+/* Div containing back and reload buttons */
+.buttons {
+  position: absolute;
+  margin-top: 36.5vw;
+  margin-left: 1.5vw;
+}
+
+#backbutton, #reloadButton {
+  color: white;
+  background-color: gold;
+  font-size: 1.3vw;
+  margin: 1.5vw;
+  left: 0;
+  right:0;
+  top: 0;
+  bottom:0;
+  display: list-item;
+}
+
+/* Level Two elements properties starts here */
+.secondPuzzleModels {
+  margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: table;
+}
+
+.columns {
+  float:left;
+  left: 0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin: auto;
+  z-index: 2;
+
+}
+
+#leftSidePieces, #rightSidePieces {
+  padding: 2vw;
+}
+
+#puzzleBoard {
+    margin-top: 2vw;
+}
+
+.allSpots {
+    float:left;
+    display: table;
+    left: 0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto;
+    margin-top: 4vw;
+    z-index: 2;
+}
+
+.innerRow0 {
+  display: table;
+  height: 40vw;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  margin-top: 2vw;
+}
+
+.innerRow1, .innerRow2, .innerRow3, .innerRow4, .innerRow5, .innerRow6{
+  display: table;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin:auto;
+  margin-top: -4.2vw;
+  z-index: 0;
+}
+
+.questionsChart {
+  display: flex;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: -1vw;
+  margin-left: 1vw;
+}
+/* Level Two elements properties ends here */

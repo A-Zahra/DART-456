@@ -1,0 +1,88 @@
+<!-- ************************************************************************
+ZahraAhmadi
+
+A webpage that displays game's level one puzzle.
+************************************************************************ -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta name="viewport" https-equiv="content-type" content="text/html" charset="utf-8">
+  <title>Level One</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <!-- Including jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+  <!-- We include our own script file(s) -->
+  <script src="js/modelOne.js" content="text/javascript"></script>
+</head>
+
+<body>
+  <!-- Main container div -->
+  <div class="FirstPuzzleModels">
+    <div class="row" style="margin-top: 3vw;">
+      <div class="column" style="width: 80%;">
+        <div id="template-container"></div>
+        <!-- Div which contains puzzle board -->
+        <div class="row">
+          <div class="column" style="width: 80%;">
+            <div class="row1">
+              <div class="rowProperties spot5" id="spotToPosition5" style="margin-left: 5.6vw; margin-top: 2.9vw; width: 10.5vw;"></div>
+              <div class="rowProperties spot4" id="spotToPosition4" style="margin-left: -3.4vw; margin-top: 2.85vw; width: 10vw;"></div>
+              <div class="rowProperties spot3" id="spotToPosition3" style="margin-left: -3.35vw; margin-top: 1.85vw; width: 13vw;"></div>
+              <div class="rowProperties spot2" id="spotToPosition2" style="margin-left: -2.9vw; margin-top: 2.9vw; width: 9.2vw;"></div>
+              <div class="rowProperties spot1" id="spotToPosition1" style="margin-left: -2.85vw; margin-top: 2.6vw; width: 13.5vw;"></div>
+              <div class="rowProperties spot0" id="spotToPosition0" style="margin-left: -3.4vw; margin-top: 3vw; width: 9vw;"></div>
+            </div>
+            <div class="row2">
+              <div class="rowProperties spot6" id="spotToPosition6" style="margin-left: 4.73vw; margin-top: -0.83vw; width: 9.7vw;"></div>
+              <div class="rowProperties spot7" id="spotToPosition7" style="margin-left: -3.65vw; margin-top: 0.65vw; width: 13.95vw;"></div>
+              <div class="rowProperties spot8" id="spotToPosition8" style="margin-left: -4.1vw; margin-top: -0.6vw; width: 10.8vw;"></div>
+              <div class="rowProperties spot9" id="spotToPosition9" style="margin-left: -4.2vw; margin-top: -0.1vw; width: 13.6vw;"></div>
+              <div class="rowProperties spot10" id="spotToPosition10" style="margin-left: -4.2vw; margin-top: -1.2vw; width: 11.6vw;"></div>
+              <div class="rowProperties spot11" id="spotToPosition11" style="margin-left: -4vw; margin-top: -0.3vw; width: 10.3vw;"></div>
+            </div>
+            <div class="row3">
+              <div class="rowProperties spot17" id="spotToPosition17" style="margin-left: 5.1vw; margin-top: 1.3vw; width: 11vw;"></div>
+              <div class="rowProperties spot16" id="spotToPosition16" style="margin-left: -4.7vw; margin-top: -0.85vw; width: 12.6vw;"></div>
+              <div class="rowProperties spot15" id="spotToPosition15" style="margin-left: -3.9vw; margin-top: 1.2vw; width: 12.2vw;"></div>
+              <div class="rowProperties spot14" id="spotToPosition14" style="margin-left: -4vw; margin-top: -0.5vw; width: 11.8vw;"></div>
+              <div class="rowProperties spot13" id="spotToPosition13" style="margin-left: -3.9vw; margin-top: 0.95vw; width: 12.2vw;"></div>
+              <div class="rowProperties spot12" id="spotToPosition12" style="margin-left: -3.9vw; margin-top: -0.05vw; width: 11.6vw;"></div>
+            </div>
+            <div class="row4">
+              <div class="rowProperties spot18" id="spotToPosition18" style="margin-left: 3.65vw; margin-top: -0.65vw; width: 11.5vw;"></div>
+              <div class="rowProperties spot19" id="spotToPosition19" style="margin-left: -4.55vw; margin-top: -0.3vw; width: 14.9vw;"></div>
+              <div class="rowProperties spot20" id="spotToPosition20" style="margin-left: -4.7vw; margin-top: -0.65vw; width: 11vw;"></div>
+              <div class="rowProperties spot21" id="spotToPosition21" style="margin-left: -4.25vw; margin-top: -0.05vw; width: 13.5vw;"></div>
+              <div class="rowProperties spot22" id="spotToPosition22" style="margin-left: -4.45vw; margin-top: -0.87vw; width: 11.55vw;"></div>
+              <div class="rowProperties spot23" id="spotToPosition23" style="margin-left: -4.8vw; margin-top: 0.45vw; width: 11.3vw;"></div>
+            </div>
+            <div class="row5">
+              <div class="rowProperties spot29" id="spotToPosition29" style="margin-left: 5.2vw; margin-top: -0.45vw; width: 11.1vw;"></div>
+              <div class="rowProperties spot28" id="spotToPosition28" style="margin-left: -3.95vw; margin-top: -2.45vw; width: 11vw;"></div>
+              <div class="rowProperties spot27" id="spotToPosition27" style="margin-left: -3.55vw; margin-top: -0.65vw; width: 12.8vw;"></div>
+              <div class="rowProperties spot26" id="spotToPosition26" style="margin-left: -3.15vw; margin-top: -1.9vw; width: 10.1vw;"></div>
+              <div class="rowProperties spot25" id="spotToPosition25" style="margin-left: -3.25vw; margin-top: -0.28vw; width: 12.2vw;"></div>
+              <div class="rowProperties spot24" id="spotToPosition24" style="margin-left: -2.9vw; margin-top: -0.45vw; width: 9.1vw;"></div>
+            </div>
+          </div>
+          <!-- Div which Contains light slider -->
+          <div class="column columnToRemove" style="width: 20%;">
+            <div class="item">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Victory screen -->
+    <div class="victoryReward"></div>
+    <div class="buttons"></div>
+  </div>
+</body>
+
+</html>

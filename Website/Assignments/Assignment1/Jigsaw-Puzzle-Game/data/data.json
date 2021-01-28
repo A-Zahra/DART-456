@@ -1,0 +1,672 @@
+{
+  "puzzles": {
+    "firstPuzzle": {
+      "puzzleScreen": "assets/images/Level1/puzzleTemplate.png",
+      "tiles": [
+        "assets/images/Level1/tiles/0.png",
+        "assets/images/Level1/tiles/1.png",
+        "assets/images/Level1/tiles/2.png",
+        "assets/images/Level1/tiles/3.png",
+        "assets/images/Level1/tiles/4.png",
+        "assets/images/Level1/tiles/5.png",
+        "assets/images/Level1/tiles/6.png",
+        "assets/images/Level1/tiles/7.png",
+        "assets/images/Level1/tiles/8.png",
+        "assets/images/Level1/tiles/9.png",
+        "assets/images/Level1/tiles/10.png",
+        "assets/images/Level1/tiles/11.png",
+        "assets/images/Level1/tiles/12.png",
+        "assets/images/Level1/tiles/13.png",
+        "assets/images/Level1/tiles/14.png",
+        "assets/images/Level1/tiles/15.png",
+        "assets/images/Level1/tiles/16.png",
+        "assets/images/Level1/tiles/17.png",
+        "assets/images/Level1/tiles/18.png",
+        "assets/images/Level1/tiles/19.png",
+        "assets/images/Level1/tiles/20.png",
+        "assets/images/Level1/tiles/21.png",
+        "assets/images/Level1/tiles/22.png",
+        "assets/images/Level1/tiles/23.png",
+        "assets/images/Level1/tiles/24.png",
+        "assets/images/Level1/tiles/25.png",
+        "assets/images/Level1/tiles/26.png",
+        "assets/images/Level1/tiles/27.png",
+        "assets/images/Level1/tiles/28.png",
+        "assets/images/Level1/tiles/29.png"
+      ],
+      "Fall": [
+        "assets/images/Level1/Fall/0.png",
+        "assets/images/Level1/Fall/1.png",
+        "assets/images/Level1/Fall/2.png",
+        "assets/images/Level1/Fall/3.png",
+        "assets/images/Level1/Fall/4.png",
+        "assets/images/Level1/Fall/5.png",
+        "assets/images/Level1/Fall/6.png",
+        "assets/images/Level1/Fall/7.png",
+        "assets/images/Level1/Fall/8.png",
+        "assets/images/Level1/Fall/9.png",
+        "assets/images/Level1/Fall/10.png",
+        "assets/images/Level1/Fall/11.png",
+        "assets/images/Level1/Fall/12.png",
+        "assets/images/Level1/Fall/13.png",
+        "assets/images/Level1/Fall/14.png",
+        "assets/images/Level1/Fall/15.png",
+        "assets/images/Level1/Fall/16.png",
+        "assets/images/Level1/Fall/17.png",
+        "assets/images/Level1/Fall/18.png",
+        "assets/images/Level1/Fall/19.png",
+        "assets/images/Level1/Fall/20.png",
+        "assets/images/Level1/Fall/21.png",
+        "assets/images/Level1/Fall/22.png",
+        "assets/images/Level1/Fall/23.png",
+        "assets/images/Level1/Fall/24.png",
+        "assets/images/Level1/Fall/25.png",
+        "assets/images/Level1/Fall/26.png",
+        "assets/images/Level1/Fall/27.png",
+        "assets/images/Level1/Fall/28.png",
+        "assets/images/Level1/Fall/29.png"
+      ],
+      "PinkFlowers": [
+        "assets/images/Level1/PinkFlowers/0.png",
+        "assets/images/Level1/PinkFlowers/1.png",
+        "assets/images/Level1/PinkFlowers/2.png",
+        "assets/images/Level1/PinkFlowers/3.png",
+        "assets/images/Level1/PinkFlowers/4.png",
+        "assets/images/Level1/PinkFlowers/5.png",
+        "assets/images/Level1/PinkFlowers/6.png",
+        "assets/images/Level1/PinkFlowers/7.png",
+        "assets/images/Level1/PinkFlowers/8.png",
+        "assets/images/Level1/PinkFlowers/9.png",
+        "assets/images/Level1/PinkFlowers/10.png",
+        "assets/images/Level1/PinkFlowers/11.png",
+        "assets/images/Level1/PinkFlowers/12.png",
+        "assets/images/Level1/PinkFlowers/13.png",
+        "assets/images/Level1/PinkFlowers/14.png",
+        "assets/images/Level1/PinkFlowers/15.png",
+        "assets/images/Level1/PinkFlowers/16.png",
+        "assets/images/Level1/PinkFlowers/17.png",
+        "assets/images/Level1/PinkFlowers/18.png",
+        "assets/images/Level1/PinkFlowers/19.png",
+        "assets/images/Level1/PinkFlowers/20.png",
+        "assets/images/Level1/PinkFlowers/21.png",
+        "assets/images/Level1/PinkFlowers/22.png",
+        "assets/images/Level1/PinkFlowers/23.png",
+        "assets/images/Level1/PinkFlowers/24.png",
+        "assets/images/Level1/PinkFlowers/25.png",
+        "assets/images/Level1/PinkFlowers/26.png",
+        "assets/images/Level1/PinkFlowers/27.png",
+        "assets/images/Level1/PinkFlowers/28.png",
+        "assets/images/Level1/PinkFlowers/29.png"
+      ],
+      "Snail": [
+        "assets/images/Level1/Snail/0.png",
+        "assets/images/Level1/Snail/1.png",
+        "assets/images/Level1/Snail/2.png",
+        "assets/images/Level1/Snail/3.png",
+        "assets/images/Level1/Snail/4.png",
+        "assets/images/Level1/Snail/5.png",
+        "assets/images/Level1/Snail/6.png",
+        "assets/images/Level1/Snail/7.png",
+        "assets/images/Level1/Snail/8.png",
+        "assets/images/Level1/Snail/9.png",
+        "assets/images/Level1/Snail/10.png",
+        "assets/images/Level1/Snail/11.png",
+        "assets/images/Level1/Snail/12.png",
+        "assets/images/Level1/Snail/13.png",
+        "assets/images/Level1/Snail/14.png",
+        "assets/images/Level1/Snail/15.png",
+        "assets/images/Level1/Snail/16.png",
+        "assets/images/Level1/Snail/17.png",
+        "assets/images/Level1/Snail/18.png",
+        "assets/images/Level1/Snail/19.png",
+        "assets/images/Level1/Snail/20.png",
+        "assets/images/Level1/Snail/21.png",
+        "assets/images/Level1/Snail/22.png",
+        "assets/images/Level1/Snail/23.png",
+        "assets/images/Level1/Snail/24.png",
+        "assets/images/Level1/Snail/25.png",
+        "assets/images/Level1/Snail/26.png",
+        "assets/images/Level1/Snail/27.png",
+        "assets/images/Level1/Snail/28.png",
+        "assets/images/Level1/Snail/29.png"
+      ],
+      "emptySpots": [
+        "assets/images/Level1/emptySpots/1.png",
+        "assets/images/Level1/emptySpots/2.png",
+        "assets/images/Level1/emptySpots/3.png",
+        "assets/images/Level1/emptySpots/4.png",
+        "assets/images/Level1/emptySpots/5.png",
+        "assets/images/Level1/emptySpots/6.png",
+        "assets/images/Level1/emptySpots/7.png",
+        "assets/images/Level1/emptySpots/8.png",
+        "assets/images/Level1/emptySpots/9.png",
+        "assets/images/Level1/emptySpots/10.png",
+        "assets/images/Level1/emptySpots/11.png",
+        "assets/images/Level1/emptySpots/12.png",
+        "assets/images/Level1/emptySpots/13.png",
+        "assets/images/Level1/emptySpots/14.png",
+        "assets/images/Level1/emptySpots/15.png",
+        "assets/images/Level1/emptySpots/16.png",
+        "assets/images/Level1/emptySpots/17.png",
+        "assets/images/Level1/emptySpots/18.png",
+        "assets/images/Level1/emptySpots/19.png",
+        "assets/images/Level1/emptySpots/20.png",
+        "assets/images/Level1/emptySpots/21.png",
+        "assets/images/Level1/emptySpots/22.png",
+        "assets/images/Level1/emptySpots/23.png",
+        "assets/images/Level1/emptySpots/24.png",
+        "assets/images/Level1/emptySpots/25.png",
+        "assets/images/Level1/emptySpots/26.png",
+        "assets/images/Level1/emptySpots/27.png",
+        "assets/images/Level1/emptySpots/28.png",
+        "assets/images/Level1/emptySpots/29.png",
+        "assets/images/Level1/emptySpots/30.png"
+      ]
+    },
+    "secondPuzzle": {
+      "puzzleScreen": "assets/images/Level2/puzzleTemplate.png",
+      "desert": [
+        "assets/images/Level2/desert/0.png",
+        "assets/images/Level2/desert/1.png",
+        "assets/images/Level2/desert/2.png",
+        "assets/images/Level2/desert/3.png",
+        "assets/images/Level2/desert/4.png",
+        "assets/images/Level2/desert/5.png",
+        "assets/images/Level2/desert/6.png",
+        "assets/images/Level2/desert/7.png",
+        "assets/images/Level2/desert/8.png",
+        "assets/images/Level2/desert/9.png",
+        "assets/images/Level2/desert/10.png",
+        "assets/images/Level2/desert/11.png",
+        "assets/images/Level2/desert/12.png",
+        "assets/images/Level2/desert/13.png",
+        "assets/images/Level2/desert/14.png",
+        "assets/images/Level2/desert/15.png",
+        "assets/images/Level2/desert/16.png",
+        "assets/images/Level2/desert/17.png",
+        "assets/images/Level2/desert/18.png",
+        "assets/images/Level2/desert/19.png",
+        "assets/images/Level2/desert/20.png",
+        "assets/images/Level2/desert/21.png",
+        "assets/images/Level2/desert/22.png",
+        "assets/images/Level2/desert/23.png",
+        "assets/images/Level2/desert/24.png",
+        "assets/images/Level2/desert/25.png",
+        "assets/images/Level2/desert/26.png",
+        "assets/images/Level2/desert/27.png",
+        "assets/images/Level2/desert/28.png",
+        "assets/images/Level2/desert/29.png",
+        "assets/images/Level2/desert/30.png",
+        "assets/images/Level2/desert/31.png",
+        "assets/images/Level2/desert/32.png",
+        "assets/images/Level2/desert/33.png",
+        "assets/images/Level2/desert/34.png",
+        "assets/images/Level2/desert/35.png",
+        "assets/images/Level2/desert/36.png",
+        "assets/images/Level2/desert/37.png",
+        "assets/images/Level2/desert/38.png",
+        "assets/images/Level2/desert/39.png",
+        "assets/images/Level2/desert/40.png",
+        "assets/images/Level2/desert/41.png",
+        "assets/images/Level2/desert/42.png",
+        "assets/images/Level2/desert/43.png",
+        "assets/images/Level2/desert/44.png",
+        "assets/images/Level2/desert/45.png",
+        "assets/images/Level2/desert/46.png",
+        "assets/images/Level2/desert/47.png"
+      ],
+      "YellowFlowers": [
+        "assets/images/Level2/YellowFlowers/0.png",
+        "assets/images/Level2/YellowFlowers/1.png",
+        "assets/images/Level2/YellowFlowers/2.png",
+        "assets/images/Level2/YellowFlowers/3.png",
+        "assets/images/Level2/YellowFlowers/4.png",
+        "assets/images/Level2/YellowFlowers/5.png",
+        "assets/images/Level2/YellowFlowers/6.png",
+        "assets/images/Level2/YellowFlowers/7.png",
+        "assets/images/Level2/YellowFlowers/8.png",
+        "assets/images/Level2/YellowFlowers/9.png",
+        "assets/images/Level2/YellowFlowers/10.png",
+        "assets/images/Level2/YellowFlowers/11.png",
+        "assets/images/Level2/YellowFlowers/12.png",
+        "assets/images/Level2/YellowFlowers/13.png",
+        "assets/images/Level2/YellowFlowers/14.png",
+        "assets/images/Level2/YellowFlowers/15.png",
+        "assets/images/Level2/YellowFlowers/16.png",
+        "assets/images/Level2/YellowFlowers/17.png",
+        "assets/images/Level2/YellowFlowers/18.png",
+        "assets/images/Level2/YellowFlowers/19.png",
+        "assets/images/Level2/YellowFlowers/20.png",
+        "assets/images/Level2/YellowFlowers/21.png",
+        "assets/images/Level2/YellowFlowers/22.png",
+        "assets/images/Level2/YellowFlowers/23.png",
+        "assets/images/Level2/YellowFlowers/24.png",
+        "assets/images/Level2/YellowFlowers/25.png",
+        "assets/images/Level2/YellowFlowers/26.png",
+        "assets/images/Level2/YellowFlowers/27.png",
+        "assets/images/Level2/YellowFlowers/28.png",
+        "assets/images/Level2/YellowFlowers/29.png",
+        "assets/images/Level2/YellowFlowers/30.png",
+        "assets/images/Level2/YellowFlowers/31.png",
+        "assets/images/Level2/YellowFlowers/32.png",
+        "assets/images/Level2/YellowFlowers/33.png",
+        "assets/images/Level2/YellowFlowers/34.png",
+        "assets/images/Level2/YellowFlowers/35.png",
+        "assets/images/Level2/YellowFlowers/36.png",
+        "assets/images/Level2/YellowFlowers/37.png",
+        "assets/images/Level2/YellowFlowers/38.png",
+        "assets/images/Level2/YellowFlowers/39.png",
+        "assets/images/Level2/YellowFlowers/40.png",
+        "assets/images/Level2/YellowFlowers/41.png",
+        "assets/images/Level2/YellowFlowers/42.png",
+        "assets/images/Level2/YellowFlowers/43.png",
+        "assets/images/Level2/YellowFlowers/44.png",
+        "assets/images/Level2/YellowFlowers/45.png",
+        "assets/images/Level2/YellowFlowers/46.png",
+        "assets/images/Level2/YellowFlowers/47.png"
+      ],
+      "dog": [
+        "assets/images/Level2/dog/0.png",
+        "assets/images/Level2/dog/1.png",
+        "assets/images/Level2/dog/2.png",
+        "assets/images/Level2/dog/3.png",
+        "assets/images/Level2/dog/4.png",
+        "assets/images/Level2/dog/5.png",
+        "assets/images/Level2/dog/6.png",
+        "assets/images/Level2/dog/7.png",
+        "assets/images/Level2/dog/8.png",
+        "assets/images/Level2/dog/9.png",
+        "assets/images/Level2/dog/10.png",
+        "assets/images/Level2/dog/11.png",
+        "assets/images/Level2/dog/12.png",
+        "assets/images/Level2/dog/13.png",
+        "assets/images/Level2/dog/14.png",
+        "assets/images/Level2/dog/15.png",
+        "assets/images/Level2/dog/16.png",
+        "assets/images/Level2/dog/17.png",
+        "assets/images/Level2/dog/18.png",
+        "assets/images/Level2/dog/19.png",
+        "assets/images/Level2/dog/20.png",
+        "assets/images/Level2/dog/21.png",
+        "assets/images/Level2/dog/22.png",
+        "assets/images/Level2/dog/23.png",
+        "assets/images/Level2/dog/24.png",
+        "assets/images/Level2/dog/25.png",
+        "assets/images/Level2/dog/26.png",
+        "assets/images/Level2/dog/27.png",
+        "assets/images/Level2/dog/28.png",
+        "assets/images/Level2/dog/29.png",
+        "assets/images/Level2/dog/30.png",
+        "assets/images/Level2/dog/31.png",
+        "assets/images/Level2/dog/32.png",
+        "assets/images/Level2/dog/33.png",
+        "assets/images/Level2/dog/34.png",
+        "assets/images/Level2/dog/35.png",
+        "assets/images/Level2/dog/36.png",
+        "assets/images/Level2/dog/37.png",
+        "assets/images/Level2/dog/38.png",
+        "assets/images/Level2/dog/39.png",
+        "assets/images/Level2/dog/40.png",
+        "assets/images/Level2/dog/41.png",
+        "assets/images/Level2/dog/42.png",
+        "assets/images/Level2/dog/43.png",
+        "assets/images/Level2/dog/44.png",
+        "assets/images/Level2/dog/45.png",
+        "assets/images/Level2/dog/46.png",
+        "assets/images/Level2/dog/47.png"
+      ],
+      "breakfast": [
+        "assets/images/Level2/breakfast/0.png",
+        "assets/images/Level2/breakfast/1.png",
+        "assets/images/Level2/breakfast/2.png",
+        "assets/images/Level2/breakfast/3.png",
+        "assets/images/Level2/breakfast/4.png",
+        "assets/images/Level2/breakfast/5.png",
+        "assets/images/Level2/breakfast/6.png",
+        "assets/images/Level2/breakfast/7.png",
+        "assets/images/Level2/breakfast/8.png",
+        "assets/images/Level2/breakfast/9.png",
+        "assets/images/Level2/breakfast/10.png",
+        "assets/images/Level2/breakfast/11.png",
+        "assets/images/Level2/breakfast/12.png",
+        "assets/images/Level2/breakfast/13.png",
+        "assets/images/Level2/breakfast/14.png",
+        "assets/images/Level2/breakfast/15.png",
+        "assets/images/Level2/breakfast/16.png",
+        "assets/images/Level2/breakfast/17.png",
+        "assets/images/Level2/breakfast/18.png",
+        "assets/images/Level2/breakfast/19.png",
+        "assets/images/Level2/breakfast/20.png",
+        "assets/images/Level2/breakfast/21.png",
+        "assets/images/Level2/breakfast/22.png",
+        "assets/images/Level2/breakfast/23.png",
+        "assets/images/Level2/breakfast/24.png",
+        "assets/images/Level2/breakfast/25.png",
+        "assets/images/Level2/breakfast/26.png",
+        "assets/images/Level2/breakfast/27.png",
+        "assets/images/Level2/breakfast/28.png",
+        "assets/images/Level2/breakfast/29.png",
+        "assets/images/Level2/breakfast/30.png",
+        "assets/images/Level2/breakfast/31.png",
+        "assets/images/Level2/breakfast/32.png",
+        "assets/images/Level2/breakfast/33.png",
+        "assets/images/Level2/breakfast/34.png",
+        "assets/images/Level2/breakfast/35.png",
+        "assets/images/Level2/breakfast/36.png",
+        "assets/images/Level2/breakfast/37.png",
+        "assets/images/Level2/breakfast/38.png",
+        "assets/images/Level2/breakfast/39.png",
+        "assets/images/Level2/breakfast/40.png",
+        "assets/images/Level2/breakfast/41.png",
+        "assets/images/Level2/breakfast/42.png",
+        "assets/images/Level2/breakfast/43.png",
+        "assets/images/Level2/breakfast/44.png",
+        "assets/images/Level2/breakfast/45.png",
+        "assets/images/Level2/breakfast/46.png",
+        "assets/images/Level2/breakfast/47.png"
+      ],
+      "emptySpot": "assets/images/Level2/emptySpot.png"
+    }
+  },
+  "questionsPackage": [{
+      "question": "Multiplying the number 72 X 98 two equals:",
+      "answer": "576",
+      "clue": "You can also say in single digits!"
+    },
+    {
+      "question": "Who is the inventor of Alcohol?",
+      "answer": "Razi",
+      "clue": "Say only one word!"
+    },
+    {
+      "question": "Which animal has it's heart on its head?",
+      "answer": "shrimp",
+      "clue": "Say only one word!"
+    },
+    {
+      "question": "How long does an African elephant pregnancy take?",
+      "answer": "22 months",
+      "clue": "**** months"
+    },
+    {
+      "question": "Where is the oldest tree of the world?",
+      "answer": "California's White Mountain",
+      "clue": "It's more than two words!"
+    },
+    {
+      "question": "How many days a human survive without food?",
+      "answer": "21 days",
+      "clue": "**** days"
+    },
+    {
+      "question": "What is the fastest sea animal in the world?",
+      "answer": "Sailfish",
+      "clue": "Say only one word!"
+    },
+    {
+      "question": "What is the oldest sport in the world?",
+      "answer": "wrestling",
+      "clue": "Say only one word!"
+    },
+    {
+      "question": "What is the most sensitive organ in our body?",
+      "answer": "skin",
+      "clue": "Say only one word!"
+    },
+    {
+      "question": "What was the first planet in space?",
+      "answer": "Jupiter",
+      "clue": "Say only one word!"
+    },
+    {
+      "question": "How many minutes is a day?",
+      "answer": "1440",
+      "clue": "You can also say in single digits!"
+    },
+    {
+      "question": "Who is the inventor of the world's first watch?",
+      "answer": "Peter Henlein",
+      "clue": "Say their full name!"
+    },
+    {
+      "question": "The only country in the world with three capital cities?",
+      "answer": "south africa",
+      "clue": "No need to have a clue!"
+    },
+    {
+      "question": "Where is the smallest country in the world located?",
+      "answer": "vatican",
+      "clue": "Say only one word!"
+    },
+    {
+      "question": "Polo game originates from which country?",
+      "answer": "Persia",
+      "clue": "Say only one word!"
+    },
+    {
+      "question": "Who reached south pole first?",
+      "answer": "Roald Amundsen",
+      "clue": "Say their full name!"
+    },
+    {
+      "question": "What is the hairiest animal in the world?",
+      "answer": "sea otter",
+      "clue": "Say their full name!"
+    },
+    {
+      "question": "How many languages are spoken in the world?",
+      "answer": "6500",
+      "clue": "You can also say in single digits!"
+    },
+    {
+      "question": "who is the first woman physician in the world?",
+      "answer": "Elizabeth Blackwell",
+      "clue": "Say their full name!"
+    },
+    {
+      "question": "Where was the first library of the world made?",
+      "answer": "Iraq",
+      "clue": "No need to have a clue!"
+    },
+    {
+      "question": "What is the result of this code: (2*4+6/2-5)?",
+      "answer": "6",
+      "clue": "No need to have a clue!"
+    },
+    {
+      "question": "What is the name of world's highest waterfall?",
+      "answer": "Angel falls",
+      "clue": "**** falls!"
+    },
+    {
+      "question": "What year was the eiffel tower made?",
+      "answer": "1887",
+      "clue": "Say only the year!"
+    },
+    {
+      "question": "How old is Queen Elizabeth 2?",
+      "answer": "93",
+      "clue": "Say only the age!"
+    },
+    {
+      "question": "When did the money system start?",
+      "answer": "5000 bc",
+      "clue": "**** BC"
+    },
+    {
+      "question": "Who was the first tailor in the world?",
+      "answer": "Adam",
+      "clue": "Answer is clear!"
+    },
+    {
+      "question": "How many species of birds can't fly?",
+      "answer": "60",
+      "clue": "Say only the number!"
+    },
+    {
+      "question": "Who is the author of 'War and Peace' novel?",
+      "answer": "Leo Tolstoy",
+      "clue": "Say their full name!"
+    },
+    {
+      "question": "Who is the director of 'GodFather' movies?",
+      "answer": "Francis Ford Coppola",
+      "clue": "Say their full name!"
+    },
+    {
+      "question": "What is the last word in many english dictionary?",
+      "answer": "Zyzzyva",
+      "clue": "Say only one word!"
+    },
+    {
+      "question": "What is the most venomous snake in the world?",
+      "answer": "Inland taipan",
+      "clue": "It's more than one word!"
+    },
+    {
+      "question": "Who developed the world's first programming language?",
+      "answer": "Konrad Zuse",
+      "clue": "Say their full name!"
+    },
+    {
+      "question": "How long does a soccer game last?",
+      "answer": "90 minutes",
+      "clue": "**** minutes"
+    },
+    {
+      "question": "How old is the world's oldest bridge in the world?",
+      "answer": "3000 years old",
+      "clue": "**** years old"
+    },
+    {
+      "question": "How many novels did Jane Austen write?",
+      "answer": "At least 13",
+      "clue": "At least ****"
+    },
+    {
+      "question": "How many ghazals (lyrical, rhymed poems) did rumi write?",
+      "answer": "3000",
+      "clue": "Say only number of them!"
+    },
+    {
+      "question": "What was the world's first book written on paper?",
+      "answer": "Gutenberg Bible",
+      "clue": "It's more than one word!"
+    },
+    {
+      "question": "How fast can a cheetah run?",
+      "answer": "93 kilometers per hour",
+      "clue": "**** kilometers per hour"
+    },
+    {
+      "question": "What animal has the longest nose in the world?",
+      "answer": "Elephant",
+      "clue": "It's one word!"
+    },
+    {
+      "question": "How many tim hortons stores are there in the world?",
+      "answer": "4932",
+      "clue": "Say only the number!"
+    },
+    {
+      "question": "How many presidencies has america had so far?",
+      "answer": "45",
+      "clue": "Say only the number"
+    },
+    {
+      "question": "Who is the world's fastest chess player currently?",
+      "answer": "Magnus Carlsen",
+      "clue": "Say their full name!"
+    },
+    {
+      "question": "Where does have the lowest temperature in the world?",
+      "answer": "Antarctica",
+      "clue": "It's one word!"
+    },
+    {
+      "question": "Who has the most beautiful smile in the world?",
+      "answer": "Michael Jackson",
+      "clue": "Say their full name!"
+    },
+    {
+      "question": "What is the heaviest organ in the human body?",
+      "answer": "Skin",
+      "clue": "It's only one word!"
+    },
+    {
+      "question": "What is the sea longest animal in the world?",
+      "answer": "lion's mane jellyfish",
+      "clue": "It's more than 2 words!"
+    },
+    {
+      "question": "Where are the first humans from?",
+      "answer": "East African",
+      "clue": "It's more than two words!"
+    },
+    {
+      "question": "What is the nearest planet to earth?",
+      "answer": "mercury",
+      "clue": "It's only one word!"
+    },
+    {
+      "question": "Which country has the world's most oil resources in the world?",
+      "answer": "Venezuela",
+      "clue": "It's only one word!"
+    },
+    {
+      "question": "How many different types of bread are there in the world?",
+      "answer": "137",
+      "clue": "Say only the number!"
+    },
+    {
+      "question": "How many soldiers are there in canada army?",
+      "answer": "40000",
+      "clue": "Say only the number!"
+    },
+    {
+      "question": "What is the programming language of instagram?",
+      "answer": "Python",
+      "clue": "It's only one word!"
+    },
+    {
+      "question": "Where is the Islets of Langerhans placed?",
+      "answer": "Pancreas",
+      "clue": "It's only one word!"
+    },
+    {
+      "question": "How many planets does solar system have?",
+      "answer": "8",
+      "clue": "Say only the number!"
+    },
+    {
+      "question": "What is the only known animal that never gets cancer?",
+      "answer": "Elephant",
+      "clue": "It's only one word!"
+    },
+    {
+      "question": "The first oxygen on earth was produced by?",
+      "answer": "Cyanobacteria",
+      "clue": "It's only one word!"
+    },
+    {
+      "question": "What was the last dinosaur to go extinct?",
+      "answer": "Triceratops",
+      "clue": "It's only one word!"
+    },
+    {
+      "question": "The world's first charter of human rights was written by?",
+      "answer": "king Cyrus the Great",
+      "clue": "King *** *** ***!"
+    },
+    {
+      "question": "When was the world's first airplane made?",
+      "answer": "1903",
+      "clue": "Say only the year!"
+    },
+    {
+      "question": "What does this code result in '(6*3/2+10-5)'?",
+      "answer": "14",
+      "clue": "Say only the number!"
+    }
+  ]
+}
