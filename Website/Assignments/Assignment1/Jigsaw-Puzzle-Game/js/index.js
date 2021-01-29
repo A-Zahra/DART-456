@@ -20,7 +20,7 @@ function setup() {
   let puzzle2Id = "";
   // Stores similar images ids names to be used in the following code
   let level1ImagesIds = ["PinkFlowers", "Tiles", "Fall", "Snail"];
-  let level2ImagesIds = ["desert", "YellowFlowers", "dog", "breakfast"];
+  let level2ImagesIds = ["Armenia", "YellowFlowers", "GreenLeaves", "ElephantStone"];
 
   // Start screen
   introScreen();

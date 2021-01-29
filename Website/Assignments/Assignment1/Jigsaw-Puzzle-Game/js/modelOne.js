@@ -18,20 +18,6 @@ screen shows up otherwise the gameOver screen will be displayed.
 *************************************************************************************
 Reference
 
-Images:
-
-Nasir-ol-molk mosque
-https://www.irandiamondtour.com/ArticleDetails/6/Shiraz-City
-
-Snail
-https://unsplash.com/photos/1SPu0KT-Ejg
-
-Tiles
-https://unsplash.com/
-
-Color Mix
-couldn't find the link
-
 Gifs:
 https://cdn.streamelements.com/uploads/24548f52-afb9-4338-b823-d2a5d1b5c793.gif
 ****************************************************************************************

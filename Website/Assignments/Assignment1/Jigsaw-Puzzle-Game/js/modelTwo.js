@@ -15,23 +15,7 @@ If they give a wrong answer the window shakes and if they don't answer it goes f
 Once the questions are finished, if all of the pieces where dropped to the board the victory screen 
 is displayed. Otherwise the game over screen is displayed.
 *********************************************************************************************
-Reference
-
-Images:
-
-YellowFlowers
-https://unsplash.com/photos/4hQaZN5a1Xc
-
-Dog
-https://unsplash.com/photos/lvFlpqEvuRM
-
-Desert
-https://unsplash.com/photos/SYx3UCHZJlo
-
-breakfast
-https://unsplash.com/
-*********************************************************************************************
-Borrowed codes
+Reference - Borrowed codes
 
 Effect("explode")
 https://jqueryui.com/effect/
@@ -161,9 +145,9 @@ function dataLoaded(data) {
   // Gets data from Json file
   // Assigns four different puzzles to the puzzles array
   puzzles = [{
-      id: "desert",
-      length: data.puzzles.secondPuzzle.desert.length,
-      pieces: data.puzzles.secondPuzzle.desert
+      id: "Armenia",
+      length: data.puzzles.secondPuzzle.Armenia.length,
+      pieces: data.puzzles.secondPuzzle.Armenia
     },
     {
       id: "YellowFlowers",
@@ -171,14 +155,14 @@ function dataLoaded(data) {
       pieces: data.puzzles.secondPuzzle.YellowFlowers
     },
     {
-      id: "dog",
-      length: data.puzzles.secondPuzzle.dog.length,
-      pieces: data.puzzles.secondPuzzle.dog
+      id: "GreenLeaves",
+      length: data.puzzles.secondPuzzle.GreenLeaves.length,
+      pieces: data.puzzles.secondPuzzle.GreenLeaves
     },
     {
-      id: "breakfast",
-      length: data.puzzles.secondPuzzle.breakfast.length,
-      pieces: data.puzzles.secondPuzzle.breakfast
+      id: "ElephantStone",
+      length: data.puzzles.secondPuzzle.ElephantStone.length,
+      pieces: data.puzzles.secondPuzzle.ElephantStone
     }
   ];
 
