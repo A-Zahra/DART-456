@@ -8,6 +8,7 @@ body {
   z-index: 2;
 }
 
+
 /* Navigation bar */
 .NavigationBar {
   display: flex;
@@ -19,7 +20,7 @@ body {
 
 ul {
   list-style-type: none;
-  margin: 2vw;
+  /* margin-left: 2vw; */
   margin-top: 0vw;
   padding: 0;
   overflow: hidden;
@@ -36,13 +37,13 @@ li {
 li a, .dropbtn {
 
   display: inline-block;
-  color: black;
+  color: rgb(247 235 212);
   text-align: center;
   padding: 25px 20px;
   text-decoration: none;
   font-family: "century gothic", sans-serif;
   transition: 0.7s;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   z-index: 2;
 }
 
@@ -69,19 +70,29 @@ li.dropdown {
 
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 8px 14px;
   text-decoration: none;
   display: block;
   text-align: left;
+  margin: 0vw;
 }
 
 .dropdown-content a:hover {
-  background-color: white;
+  background-color: rgb(247 235 212);
   color: black;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+
+.contentTitle {
+  font-family: "century gothic", sans-serif;
+  padding-left: 1vw;
+  font-size: 1.2vw;
+  margin-top: 1vw;
+  margin-bottom: 0.5vw;
 }
 
 /* Introduction */

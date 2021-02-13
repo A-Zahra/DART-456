@@ -60,7 +60,7 @@ li a, .dropbtn {
   text-decoration: none;
   font-family: "century gothic", sans-serif;
   transition: 0.7s;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
   z-index: 2;
 }
 
@@ -87,10 +87,11 @@ li.dropdown {
 
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 8px 14px;
   text-decoration: none;
   display: block;
   text-align: left;
+  margin: 0vw;
 }
 
 .dropdown-content a:hover {
@@ -100,6 +101,15 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+
+.contentTitle {
+  font-family: "century gothic", sans-serif;
+  padding-left: 1vw;
+  font-size: 1.2vw;
+  margin-top: 1vw;
+  margin-bottom: 0.5vw;
 }
 
 /* Introduction */

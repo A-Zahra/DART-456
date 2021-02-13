@@ -2,6 +2,13 @@ body {
 
 }
 
+.mainContainer {
+  position: relative;
+  margin: 0vw;
+  z-index: 2;
+}
+
+
 
 /* Navigation bar */
 .NavigationBar {
@@ -80,7 +87,6 @@ li.dropdown {
   display: block;
 }
 
-
 .contentTitle {
   font-family: "century gothic", sans-serif;
   padding-left: 1vw;
@@ -88,6 +94,7 @@ li.dropdown {
   margin-top: 1vw;
   margin-bottom: 0.5vw;
 }
+
 
 /* Introduction */
 #Container {
@@ -120,13 +127,24 @@ li.dropdown {
   margin-top: 4vw;
 }
 
-.projectDescription {
+.sectionHeading {
   color: black;
   text-align: left;
+  text-decoration: none;
+  font-family: "century gothic", sans-serif;
+  transition: 0.7s;
+  font-size: 1.7vw;
+  margin-top: 2vw;
+  margin-bottom: 3vw;
+}
+
+.projectDescription {
+  color: black;
+  text-align: justify;
   padding:0vw;
   text-decoration: none;
   font-family: "century gothic", sans-serif;
-  font-size: 1.1vw;
+  font-size: 1.2vw;
   line-height: 1.7vw;
   font-weight: normal;
 }
@@ -137,17 +155,17 @@ li.dropdown {
 .videoImageContainer {
   z-index: 2;
   margin: 15vw;
-  margin-top: 0vw;
+  margin-top: 5vw;
   display: flow-root;
   padding: 2vw;
 }
 
 .imageRow {
-  width: 46%;
+  width: 100%;
   display: table;
   position: relative;
   float: left;
-  padding: 1vw;
+  padding-bottom: 3vw;
 }
 
 iframe {
