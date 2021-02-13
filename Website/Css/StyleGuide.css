@@ -43,7 +43,7 @@ li {
 li a, .dropbtn {
 
   display: inline-block;
-  color: rgb(247 235 212);
+  color: black;
   text-align: center;
   padding: 25px 20px;
   text-decoration: none;
@@ -54,7 +54,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  color: white;
+  color: grey;
 }
 
 li.dropdown {
