@@ -1,28 +1,10 @@
 body {
- background-color: black;
-}
 
-.Background-img {
-  width: -webkit-fill-available;
-  height: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  position: fixed;
-  opacity: 0.3;
-  /* Add the blur effect */
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
-  z-index: 1;
 }
 
 .mainContainer {
-
   position: relative;
-  margin-left: -8px;
-  margin-right: -8px;
-  margin-top: -8px;
+  margin: 0vw;
   z-index: 2;
 }
 
@@ -46,16 +28,16 @@ ul {
   justify-content: center;
 }
 
-li {
+li.dropdown {
   float: left;
-
+  clear: left;
 }
 
-li a, .dropbtn {
+li.dropdown a, .dropbtn {
 
-  display: inline-block;
-  color: rgb(247 235 212);
-  text-align: center;
+  display: list-item;
+  color: black;
+  text-align: left;
   padding: 25px 20px;
   text-decoration: none;
   font-family: "century gothic", sans-serif;
@@ -64,8 +46,8 @@ li a, .dropbtn {
   z-index: 2;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
-  color: white;
+li.dropdown a:hover, .dropdown:hover .dropbtn {
+  color: grey;
 }
 
 li.dropdown {
@@ -74,6 +56,7 @@ li.dropdown {
     border-radius: 0.3vw;
     z-index: 2;
     border: solid rgb(245, 122, 122);
+  
 }
 
 .dropdown-content {
@@ -85,7 +68,7 @@ li.dropdown {
   z-index: 2;
 }
 
-.dropdown-content a {
+div.dropdown-content a {
   color: black;
   padding: 8px 14px;
   text-decoration: none;
@@ -123,114 +106,44 @@ li.dropdown {
   z-index: 1;
 }
 
-.row1 {
-  display: flex;
-  margin-top: 0vw;
-  margin-left: 7vw;
-  margin-right: 7vw;
-  margin-bottom: 7vw;
-  padding: 1vw;
-  position: relative;
-  z-index: 2;
-
-}
-
-.innerRow1 {
-  width: 100%;
-  position: relative;
-  margin-top: 4vw;
-  display: flex;
-}
-.innerRow2 {
-  width: 100%;
-  position: absolute;
-  margin-top: 4vw;
-  display: flex;
-}
-.projectTitle {
-  color: black;
-  text-align: left;
-  padding: 0.2vw;
-  text-decoration: none;
-  font-family: "century gothic", sans-serif;
-  font-size: 1.2vw;
-  line-height: 1.5vw;
-}
-
-.projectItems {
-  color: black;
-  text-align: left;
-  padding: 0.2vw;
-  text-decoration: none;
-  font-family: "century gothic", sans-serif;
-  font-size: 1.2vw;
-  line-height: 2.5vw;
-}
-
 .rowTitle {
-  color: rgb(71 246 230);
+  color: black;
   text-align: center;
   text-decoration: none;
   font-family: "century gothic", sans-serif;
   transition: 0.7s;
   font-size: 2vw;
-  margin-top: 7vw;
+  margin-top: 4vw;
 }
 
 
-.column, .column1, .column2 {
-  background-color: rgb(247 235 212);
-  width: 100%;
-  display: inline-table;
-  left: 0;
-  right: 0;
-  margin: 1vw;
-  padding: 2vw;
-  padding-top: 1vw;
-  box-shadow: 0 2px 19px 6px rgba(0, 0, 0, 0.2);
-
-}
-
-.column2 {
-  width: 26%;
-}
-.sectionTitle {
-  text-align: left;
-  padding: 1vw;
-  color: rgb(245, 122, 122);
-  text-decoration: none;
-  font-family: "Abel", sans-serif;
-  transition: 0.7s;
-  font-size: 1.35vw;
-  margin-top: 0vw;
+.projectDescription, .projectDescription1 {
+  display: table;
+  margin: 16vw;
+  margin-top: 4vw;
   margin-bottom: 0vw;
-  width: 100%;
-  position: absolute;
+  padding: 1vw;
+  padding-top: 0vw;
+  position: relative;
+  z-index: 2;
+  color: black;
+  text-align: justify;
+  text-decoration: none;
+  font-family: "century gothic", sans-serif;
+  font-size: 1.2vw;
+  line-height: 2vw;
+  font-weight: normal;
 }
 
-.linksTitle {
-  text-align: left;
-  padding-left: 0.5vw;
-  color: black;
-  text-decoration: none;
-  font-family: "abel", sans-serif;
-  font-size: 1vw;
+ol.awards {
+  list-style-type: circle;
+  float: left;
+  clear: left;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Karla:wght@700&family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Karla:wght@400;700&family=Lobster&family=Open+Sans+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Catamaran:wght@700&family=Karla:wght@400;700&family=Lobster&family=Open+Sans+Condensed:wght@300&display=swap');
-
-#title {
-  font-family: 'Century gothic', sans-serif;
-  line-height: 1.5;
-  font-size: 3vw;
-  font-weight: 500;
-  color: rgb(71 246 230);
-  text-align: left;
-  margin: 5vw;
-  position: relative;
-  z-index: 2;
-}
 
 
 .copyrights {
